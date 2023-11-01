@@ -1,0 +1,38 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+button#click-button {
+  background: linear-gradient(-45deg, #833ab4, #fd1d1d, #fcb045);
+  font-family: 'Poppins';
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-size: 400% 400%;
+  color: #FFF;
+  text-transform: uppercase;
+  border: 0;
+  padding: 13px 30px;
+  font-size: 15px;
+  animation: Gradient 10s ease infinite;
+  border-radius: 10px;
+  border-bottom: 4px solid #c0392b;
+  box-shadow: 6px 6px 8px rgb(255, 197, 197);
+}
+
+button#click-button:active {
+  transform: scale(0.95) translateZ(0);
+  transition: transform 0.2s ease-out;
+}
+
+
+button#click-button:hover {
+  background-size: 150% 150%;
+}
+

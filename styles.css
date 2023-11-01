@@ -18,8 +18,8 @@ button#click-button {
   color: #FFF;
   text-transform: uppercase;
   border: 0;
-  padding: 13px 30px;
-  font-size: 15px;
+  padding: 13px 40px;
+  font-size: 2rem;
   animation: Gradient 10s ease infinite;
   border-radius: 10px;
   border-bottom: 4px solid #c0392b;
